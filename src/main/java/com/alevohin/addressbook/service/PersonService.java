@@ -11,6 +11,9 @@ import org.vaadin.spring.events.EventBus;
 
 import java.util.List;
 
+/**
+ * CRUD service to work with Person.
+ */
 @SpringComponent
 @UIScope
 @ConfigurationProperties(prefix = "addressbook.addme")

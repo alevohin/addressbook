@@ -12,6 +12,9 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.context.SecurityContextHolder;
 
+/**
+ * Service to register and login/logout User.
+ */
 @SpringComponent
 @UIScope
 public class UserService {
